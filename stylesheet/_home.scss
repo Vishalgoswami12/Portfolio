@@ -1,0 +1,132 @@
+header{
+    background-image: url(../assets/photo-1619628554860-d13f5bd5dea9.avif);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    h2{
+        color: black;
+        font-size: 22px;
+    }
+    li{
+        color: white;
+        font-weight: bold;
+        margin-right: 15px;
+        font-size: 20px;
+        transition: 0.5sec ease-in-out;
+        &:hover{
+            transform: scale(1.4);
+        }
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 40px;
+       margin-top: 19%;
+       word-spacing: 5px;
+       text-shadow: 5px 5px black;
+    }
+    p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+        font-style: italic;
+        font-weight: bold;
+        color: yellow;
+    }
+}
+.about-me{
+    position: relative;
+    padding-top: 50px;
+    h2{
+        text-align: center;
+        margin-top: 15px;
+        color: #008080;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    p{
+        font-style: italic;
+        text-align: center;
+        font-size: 22px;
+        padding-top: 20px;
+        width: 40%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}
+.project{
+    background-color: #bcd7bc;
+    padding: 25px;
+    h2{
+        text-align: center;
+        font-size: 22px;
+        color: #008080;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    p{
+        font-size: 16px;
+    }
+    .proj{
+    margin: 20px;
+      width: 30%;
+      height: 50%;
+      transition: 0.5s ease-in-out;
+      &:hover{
+          transform: scale(1.2);
+      }
+    }
+}
+.skill{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    h2{
+        color: #008080;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+    }
+    img{
+        height: 50%;
+        width: 25%;
+        margin: 40px;
+        transition: 0.5s ease-in-out;
+        &:hover{
+            transform: rotate(45deg) scale(1.2);
+        }
+    }
+}
+footer{
+    background-color: #008080;
+    padding: 25px;
+    h2{
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 25px;
+    }
+    p{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        i{
+            color: white;
+            font-size: 20px;
+            padding: 15px;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                transform: rotate(360deg) scale(1.4);
+            }
+        }
+    }
+}
